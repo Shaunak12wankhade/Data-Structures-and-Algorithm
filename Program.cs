@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace DataStructuresandAlgorithms
 {
@@ -32,7 +33,7 @@ namespace DataStructuresandAlgorithms
 
             //InsertionSort
 
-         
+
             //string[] names = { "One", "Two", "Four", "Six" };
             //InsertionSort dataStructure = new InsertionSort();
             //dataStructure.Insertion(names);
@@ -40,18 +41,17 @@ namespace DataStructuresandAlgorithms
 
             //AnagramDetection
 
-            
-           Datastructurealgorithm datastructure = new Datastructurealgorithm();
-            datastructure.Anagram();
+
+            //Datastructurealgorithm datastructure = new Datastructurealgorithm();
+            // datastructure.Anagram();
 
 
 
 
             //NumberOfBinarySearchTree
 
-            //Console.WriteLine("Data Structure!");
-            //DataStructure<string> dataStructure = new DataStructure<string>();
-            //dataStructure.Prime();
+            NumberOfBinarySearchTree<string> dataStructure = new NumberOfBinarySearchTree<string>();
+            dataStructure.Prime();
 
 
         }
