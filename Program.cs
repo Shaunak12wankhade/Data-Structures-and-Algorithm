@@ -6,7 +6,7 @@ namespace DataStructuresandAlgorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Datastructures and Algorithms");
+            //Console.WriteLine("Welcome to Datastructures and Algorithms");
 
 
             // BinarySearchWord
@@ -26,9 +26,17 @@ namespace DataStructuresandAlgorithms
 
             //BubbleSort
 
-            Console.WriteLine("Data Structure!");
-            Bubblesort dataStructure = new Bubblesort();
-            dataStructure.BubbleSort();
+            //Bubblesort dataStructure = new Bubblesort();
+            //dataStructure.BubbleSort();
+
+
+            //InsertionSort
+
+         
+            string[] names = { "One", "Two", "Four", "Six" };
+            InsertionSort dataStructure = new InsertionSort();
+            dataStructure.Insertion(names);
+
 
         }
     }
