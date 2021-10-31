@@ -33,9 +33,25 @@ namespace DataStructuresandAlgorithms
             //InsertionSort
 
          
-            string[] names = { "One", "Two", "Four", "Six" };
-            InsertionSort dataStructure = new InsertionSort();
-            dataStructure.Insertion(names);
+            //string[] names = { "One", "Two", "Four", "Six" };
+            //InsertionSort dataStructure = new InsertionSort();
+            //dataStructure.Insertion(names);
+
+
+            //AnagramDetection
+
+            
+           Datastructurealgorithm datastructure = new Datastructurealgorithm();
+            datastructure.Anagram();
+
+
+
+
+            //NumberOfBinarySearchTree
+
+            //Console.WriteLine("Data Structure!");
+            //DataStructure<string> dataStructure = new DataStructure<string>();
+            //dataStructure.Prime();
 
 
         }
